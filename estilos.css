@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0; }
+  
 
 *, *:before, *:after {
   box-sizing: border-box; }
@@ -45,10 +46,10 @@ a {
     cursor: pointer;
     transition: .5s ease; }
     .contenedor-tabs li a:hover {
-      background: #179b77;
+      background: #10b800;
       color: #fff; }
   .contenedor-tabs .active a {
-    background: #1ab188;
+    background: #33ee04;
     color: #fff; }
 
 .contenido-tab > div:last-child {
@@ -71,7 +72,7 @@ label {
   font-size: 22px; }
   label .req {
     margin: 2px;
-    color: #1ab188; }
+    color: #b3f714; }
 
 label.active {
   transform: translateY(50px);
@@ -101,7 +102,7 @@ input {
   border-radius: 5px; }
   input:focus {
     outline: none;
-    border-color: #1ab188; }
+    border-color: #06b600; }
 
 .contenedor-input {
   position: relative;
@@ -125,12 +126,12 @@ input {
   cursor: pointer;
   padding: 15px 0;
   font-size: 2rem;
-  background: #1ab188;
+  background: #00b619;
   color: #fff;
   transition: all .5s ease;
   -webkit-appearance: none; }
   .button:hover, .button:focus {
-    background: #179b77; }
+    background: #628a06; }
 
 .button-block {
   display: block;
